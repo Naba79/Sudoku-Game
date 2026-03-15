@@ -34,12 +34,11 @@ h1 { color: #333; }
     cursor: pointer;
 }
 
-/* خطوط لتقسيم الـ 3x3 مربعات */
 .horizontal-line { border-bottom: 2px solid #333; }
 .vertical-line { border-right: 2px solid #333; }
 
-.tile-start { background-color: #e8e8e8; } /* الأرقام الثابتة */
-.selected { background-color: #bbdefb; } /* الخلية المحددة */
+.tile-start { background-color: #e8e8e8; } 
+.selected { background-color: #bbdefb; } 
 
 #digits {
     width: 450px;
